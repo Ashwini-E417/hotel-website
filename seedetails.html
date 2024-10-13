@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="asessts/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asessts/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <!--Font Family-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        
+        <div class="container-fluid">
+            <span> &nbsp; &nbsp; <b>Welcome Ashwini!</b></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="main.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about_us.html">About US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Logout</a>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+    </nav>
+    <!-- Header section nds here -->
+
+    <!-- Main section -->
+    <div class="container mt-3">
+        <h2 class="text-center">Cosy Twin Room</h2>
+        <div class="row mt-2">
+          <div class="col-md-7">
+            <div id="carouseldetail" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouseldetail" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouseldetail" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouseldetail" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="asessts/images/ct3.jpg">
+                </div>
+                <div class="carousel-item">
+                  <img src="asessts/images/ct1.jpg">
+                </div>
+                <div class="carousel-item">
+                  <img src="asessts/images/ct2.jpg">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouseldetail" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouseldetail" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div  class="col-md-4  mt-3">
+            <h5>Room size: &nbsp; 35cm<sup>2</sup></h5>
+            <h5>Bed type: &nbsp; 2 single bed</h5>
+            <h5>Description:</h5>
+            <p>This twin/double room's special feature is the pool with a view. Providing free toiletries and bathrobes, this twin/double room includes a private bathroom with a walk-in shower, a hairdryer and slippers. The air-conditioned twin/double room provides a flat-screen TV with cable channels, soundproof walls, a minibar, a wardrobe as well as garden views.</p>
+            <p>If there is any loss or damaged items in room, a penalty should be applied.</p>
+          </div>
+        </div>
+             
+        <div>
+          <h3 class="text-center mt-3">Amenities</h3>
+          <div class="row">
+            <div class="col-6" style="padding-left: 45px;">
+              <p><i class="bi bi-check-lg ircol"></i>&nbsp;Air Conditioned Room</p>
+              <p><i class="bi bi-check-lg ircol"></i>&nbsp;Room Service</p>
+              <p><i class="bi bi-check-lg ircol"></i>&nbsp;High Speed Wifi</p>
+              <p><i class="bi bi-check-lg ircol"></i>&nbsp;Daily maid service</p>
+            </div>
+            <div class="col-6" style="padding-right: 45px;">
+              <p><i class="bi bi-check-lg ircol"></i>&nbsp;Telephone(Bed-Bathroom)</p>
+              <p><i class="bi bi-check-lg ircol"></i>&nbsp;Wardrobe</p>
+              <p><i class="bi bi-x-lg iwcol"></i>&nbsp;Swimming Pool</p>
+              <p><i class="bi bi-x-lg iwcol"></i>&nbsp;Garden</p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+        <a href="seecart.html" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#cdetails"> Check Availability</a>
+        </div>
+    </div> <!-- closed containner-->
+
+<!-- Modal -->
+<div class="modal fade" id="cdetails" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="cdetailsLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="cdetailsLabel">Booking Details</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="" method="post">
+          <label for="checkin" class="form-label">Check In:</label>
+          <input type="date" class="form-control"  name="checkin" id="checkin">
+
+          <label for="checkout" class="form-label">Check out:</label>
+          <input type="date" class="form-control" name="checkout" id="checkout">
+
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Check</button>
+        <a href="seecart.html" class="btn btn-success">Next</a>
+      </div>
+    </div>
+  </div>
+</div>
+        
+
+    <!-- Footer Section -->
+    <footer class="bg-dark">
+        <div class="container mt-3 pt-3">
+            <div class="row mb-2 p-3">
+                <div class="col-md-4">
+                  <h5>Address</h5>
+                  <hr>
+                  2nd Floor, Ishaan Arcade-1, Opposite Gaondevi Mandir,
+                  Above Canara bank, Gokhale Road 
+                  Thane(West) 400602
+                  <p><i class="bi-telephone-fill text-light"></i>&nbsp;&nbsp;&nbsp;9999999999</p>
+                  <p><i class="bi-envelope-fill text-light"></i>&nbsp;&nbsp;&nbsp;abc@gmail.com</p>
+                </div>
+                <div class="col-md-4">
+                  <h5>Quick Links</h5>
+                  <hr>
+                  <p><a href="index.html">Home</a></p>
+                  <p><a href="about.html">About</a></p>
+                  <p><a href="contact.html">Contact</a></p>
+                  <p><a href="cart.html">Cart</a></p>
+                 </div>
+                 <div class="col-md-4">
+                  <h5>Connect with us</h5>
+                  <hr>
+                  <h5><a href="https://www.facebook.com/"><i class="bi-facebook text-light"></i></a></h5>
+                  <h5><a href="https://www.instagram.com/"><i class="bi-instagram text-light"></i></a></h5>
+                  <h5><a href="https://www.twitter.com/"><i class="bi-twitter text-light"></i></a></h5>    
+                 </div>
+                 <i>&copy; All right reserved to Ashwini Poojary</i>
+
+               </div>
+        </div>
+    </footer>
+    <script src="asessts/js/bootstrap.min.js"></script>
+</body>
+</html>

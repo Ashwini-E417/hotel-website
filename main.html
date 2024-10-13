@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="asessts/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asessts/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <!--Font Family-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        
+        <div class="container-fluid">
+            <span> &nbsp; &nbsp; <b>Welcome Ashwini!</b></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="main.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about_us.html">About US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Logout</a>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+    </nav>
+    <!-- Header section nds here -->
+
+    <!-- Main section -->
+      <!--carousel section-->
+      <div id="carouselmain" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="asessts/images/c1.jpg" class="d-block" style="height: 550px;width: 100%;">
+          </div>
+          <div class="carousel-item">
+            <img src="asessts/images/c2.jpg" class="d-block" style="height: 550px;width: 100%;">
+          </div>
+          <div class="carousel-item">
+            <img src="asessts/images/c3.jpeg" class="d-block" style="height: 550px;width: 100%;">
+          </div>
+        </div>  
+        <!-- Filter canvas -->
+        <i class="bi bi-list" id="menulist" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Filter</i>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h4 class="offcanvas-title" id="offcanvasRightLabel"><u>Filter</u></h4>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <h5>Search By Location:</h5><hr>
+                <div style="padding-left:20px ;">
+                    <a href="">Mumbai</a><br>
+                    <a href="">Pune</a><br>
+                    <a href="">Bangalore</a><br>
+                    <a href="">Chennai</a><br>
+                </div>
+
+                <br> <br>
+                <h5>Sort By Price</h5><hr>
+                <label for="minprice" class="form-label">Minimum Price:</label>
+                <input type="text" name="minprice" class="form-control">
+                <label for="maxprice" class="form-label">Minimum Price:</label>
+                <input type="text" name="maxprice" class="form-control">
+                <br>
+                <a href="" class="btn btn-success">Search</a>
+
+            </div>
+
+
+        </div>
+        <!--Service Banner-->
+        <div class="container" style="background-color: rgb(21, 248, 229);">
+            <div class="row">
+                <div class="col-md-6 px-5" style="padding-top: 30px;">
+                    <h3>Why Paradise?</h3>
+                    <p>Choose Direct Rate when booking your room</p>
+                </div>
+                <div class="col-md-6" style="padding-top: 10px;">
+                    <h5>Best Rate Guarantee</h5>
+                    <h5>5% off Best Available Rate</h5>  
+                    <h5> Food & Beverage Voucher to be used during your stay</h5>
+                    <h5>The Paradise Hotel Exclusive offers and discounts</h5>
+                </div>
+            </div>
+        </div>
+
+        <!--Room Avaiable-->
+        
+        <div class="container mt-3 text-center">
+            <h2>Room type</h2>
+            <div class="row">
+                <!--card1-->
+                <div class="col-md-6">
+                    <div class="card mt-2 pb-3">
+                        <img src="asessts/images/ctm.jpg" alt="" srcset="">
+                        <div class="card-body">
+                        <h4 class="card-title">Cosy Twin</h4>
+                        <p class="text-truncate">This twin/double room's special feature is the pool with a view.</p>
+                        </div>
+                        <a href="seedetails.html"><button type="button" class="btn btn-secondary">See More</button></a>
+                    </div>
+                </div>
+                <!--Card2-->
+                <div class="col-md-6">
+                    <div class="card mt-2 pb-3">
+                        <img src="asessts/images/ctm.jpg" alt="" srcset="">
+                        <div class="card-body">
+                        <h4 class="card-title">Cosy Twin</h4>
+                        <p class="text-truncate">This twin/double room's special feature is the pool with a view.</p>
+                        </div>
+                        <a href="seedetails.html"><button type="button" class="btn btn-secondary">See More</button></a>
+                    </div>
+                </div>
+                <!--card3-->
+                <div class="col-md-6">
+                    <div class="card mt-2 pb-3">
+                        <img src="asessts/images/ctm.jpg" alt="" srcset="">
+                        <div class="card-body">
+                        <h4 class="card-title">Cosy Twin</h4>
+                        <p class="text-truncate">This twin/double room's special feature is the pool with a view.</p>
+                        </div>
+                        <a href="seedetails.html"><button type="button" class="btn btn-secondary">See More</button></a>
+                    </div>
+                </div>
+                <!--card4-->
+                <div class="col-md-6">
+                    <div class="card mt-2 pb-3">
+                        <img src="asessts/images/ctm.jpg" alt="" srcset="">
+                        <div class="card-body">
+                        <h4 class="card-title">Cosy Twin</h4>
+                        <p class="text-truncate">This twin/double room's special feature is the pool with a view.</p>
+                        </div>
+                        <a href="seedetails.html"><button type="button" class="btn btn-secondary">See More</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Banquet Hall-->
+            <div class="row mt-3">
+                <h2>Banquet Hall</h2>
+                <div class="col-md-6">
+                    <div class="card mt-2">
+                        <img src="asessts/images/b2.jpg" alt="" srcset="" height="350px">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mt-2">
+                        <img src="asessts/images/b3.jpg" alt="" srcset="" height="350px">
+                    </div>
+                </div>
+                <a href="#" class="btn btn-secondary">See More</a>
+            </div>
+        </div><!--Container close -->
+    <br>
+    
+    <!-- Footer Section -->
+    <footer>
+        <div class="container mt-3 pt-3">
+            <div class="row bg-light mb-2 p-3">
+                <div class="col-md-4">
+                  <h5>Address</h5>
+                  <hr>
+                  2nd Floor, Ishaan Arcade-1, Opposite Gaondevi Mandir,
+                  Above Canara bank, Gokhale Road 
+                  Thane(West) 400602
+                  <p><i class="bi-telephone-fill text-dark"></i>&nbsp;&nbsp;&nbsp;9999999999</p>
+                  <p><i class="bi-envelope-fill text-dark"></i>&nbsp;&nbsp;&nbsp;abc@gmail.com</p>
+                </div>
+                <div class="col-md-4">
+                  <h5>Quick Links</h5>
+                  <hr>
+                  <p><a href="index.html">Home</a></p>
+                  <p><a href="about.html">About</a></p>
+                  <p><a href="contact.html">Contact</a></p>
+                  <p><a href="cart.html">Cart</a></p>
+                 </div>
+                 <div class="col-md-4">
+                  <h5>Connect with us</h5>
+                  <hr>
+                  <h5><a href="https://www.facebook.com/"><i class="bi-facebook text-dark"></i></a></h5>
+                  <h5><a href="https://www.instagram.com/"><i class="bi-instagram text-dark"></i></a></h5>
+                  <h5><a href="https://www.twitter.com/"><i class="bi-twitter text-dark"></i></a></h5>    
+                 </div>
+               </div>
+               <i>&copy; All right reserved to Ashwini Poojary</i>
+        </div>
+    </footer>
+    <script src="asessts/js/bootstrap.min.js"></script>
+</body>
+</html>
