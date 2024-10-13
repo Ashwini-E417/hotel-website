@@ -1,0 +1,118 @@
+body {
+    background-color:rgb(231, 248, 245);
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+h1,h2,h3 {
+    color: indigo;
+}
+
+img {
+    height: 350px;
+    width: 100%;
+}
+
+.con_form {
+    background-color: whitesmoke;
+}
+
+.fimg {
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px gray;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    width: 120px;
+}
+
+.binput {
+    border: none;
+    border-bottom: 1px;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+}
+
+span {
+    color: whitesmoke;
+}
+
+footer {
+    background-color:black;
+    color: aliceblue;
+}
+
+.col_section {
+    color: black;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.banner {
+    background-color: rgb(114, 111, 112);
+    border-radius: 10px;
+    height: 45px;
+    padding: 10px;
+}
+
+#cartbuttons {
+    margin-left: 20px;
+}
+
+.cart_sep {
+    border-right: 1px solid black;
+}
+
+.rchoice {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px black;
+}
+
+.card_mod {
+    margin: 0;
+    padding: 0px 10px;
+}
+
+#menulist {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    position: sticky;
+    top:150px;
+    left:1500px;
+}
+
+.isize {
+    font-size: 75px;
+}
+
+.cstyle {
+    border: 0px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 0px;
+}
+
+.ircol {
+    color: green;
+    font-size: 30PX;
+    font-style: BOLD;
+}
+.iwcol {
+    color: red;
+    font-size: 30PX;
+    font-style:bold;
+}
+
+.pservice {
+    font-size: large;
+    color: black;
+}
